@@ -8,3 +8,7 @@ categories: youngguns16
 ![image]({{ image.path }})
 {% endif %}
 {% endfor %}
+
+Credits
+
+Co-designer: Tim Goodman

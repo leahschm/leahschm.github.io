@@ -3,6 +3,7 @@ layout: post
 title:  "12 Kinds of Kindess"
 categories: youngguns16
 ---
+[http://12kindsofkindness.com](http://12kindsofkindness.com){:target="_blank"}
 {% for image in site.static_files %}
 {% if image.path contains 'images/12kinds' %}
 ![image]({{ image.path }})

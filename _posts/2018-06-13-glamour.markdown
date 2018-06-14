@@ -3,6 +3,7 @@ layout: post
 title:  "Glamour"
 categories: youngguns16
 ---
+[View Article](https://www.glamour.com/story/a-to-z-kinks-and-fetishes){:target="_blank"}
 {% for image in site.static_files %}
 {% if image.path contains 'images/glamour' %}
 ![image]({{ image.path }})

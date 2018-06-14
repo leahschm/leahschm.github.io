@@ -1,0 +1,52 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    font-size: 16px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.wrapper {
+    width: 92%;
+    max-width: 1024px;
+    margin: 4rem auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+body.home {
+    background: #366fff;
+    color: white;
+    text-align: center;
+}
+
+.social-links {
+    a {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 .4rem;
+    }
+}

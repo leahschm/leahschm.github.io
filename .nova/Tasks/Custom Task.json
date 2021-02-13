@@ -1,0 +1,9 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "jekyll serve"
+    }
+  },
+  "identifier" : "FB8636D2-39E2-43C1-BA8B-41BD1DF88F86"
+}

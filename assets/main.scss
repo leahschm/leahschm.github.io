@@ -51,7 +51,6 @@ body {
   text-align: left;
   padding: 0;
   margin: 0;
-  height: 100vh;
 }
 
 p,
@@ -86,20 +85,20 @@ h2 {
 
 .page-content {
   height: 100%;
-  padding: 4rem;
-  height: 100%;
-  width: 92%;
-  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  border-width: 35px;
+  border-image-source: url("#{$baseurl}/assets/images/border.svg");
+  border-image-slice: 70;
+  display: flex;
+  align-items: center;
   @include respond-to("medium") {
     padding: 6rem;
+    border-width: 50px;
   }
 }
 
 .main {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   h2 {
     max-width: 64rem;
     margin-top: 2rem;
@@ -114,7 +113,7 @@ img {
 .social-links {
   margin-top: 1rem;
   list-style-type: none;
-  margin: 0;
+  margin: 2rem 0 0 0;
   padding: 0;
   font-size: 0;
   li:not(:last-of-type) {
@@ -123,6 +122,9 @@ img {
       margin-bottom: 0;
       margin-right: 2rem;
     }
+  }
+  li {
+    height: 28px;
   }
   a {
     font-size: 1rem;
@@ -141,6 +143,7 @@ img {
     }
   }
   @include respond-to("medium") {
+    margin: 10rem 0 0 0;
     li {
       display: inline-block;
     }
@@ -154,9 +157,6 @@ img {
   right: 0;
   left: 0;
   z-index: -1;
-  border-width: 50px;
-  border-image-source: url("#{$baseurl}/assets/images/border.svg");
-  border-image-slice: 70;
 }
 
 .flower {
